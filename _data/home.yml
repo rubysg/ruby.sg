@@ -1,0 +1,12 @@
+meetup_buttons:
+- label: Come join us!
+  url: http://www.meetup.com/Singapore-Ruby-Group
+  class_name: btn
+- label: Recordings
+  url: https://engineers.sg/organization/rubysg--57
+  class_name: btn btn-success
+- label: Photos
+  url: https://www.icloud.com/sharedalbum/#B0SJtdOXmmrrha
+  class_name: btn btn-success
+telegram_url: https://t.me/+2SjusiYG07pjYWE1
+visit_guide_url: https://github.com/rubysg/singapore

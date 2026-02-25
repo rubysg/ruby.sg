@@ -1,0 +1,38 @@
+{% assign company = include.company %}
+<article class="company-card">
+  {% if company.hiring_url %}
+    <a
+      class="company-hiring"
+      href="{{ company.hiring_url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Hiring at {{ company.name }}"
+    >
+      Hiring
+    </a>
+  {% endif %}
+  <a
+    class="company-link"
+    href="{{ company.url }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit {{ company.name }}"
+  >
+    {% if company.logo_url %}
+      <div class="company-logo">
+        <img src="{{ company.logo_url }}" alt="{{ company.logo_alt }}" loading="lazy" />
+      </div>
+    {% else %}
+      <div class="company-logo company-logo-fallback" aria-label="{{ company.name }} logo placeholder">
+        {{ company.logo_fallback }}
+      </div>
+    {% endif %}
+  </a>
+  <div>
+    <a class="company-link" href="{{ company.url }}" target="_blank" rel="noopener noreferrer">
+      <h4>{{ company.name }}</h4>
+    </a>
+    <p>{{ company.address }}</p>
+    <p class="email">{{ company.email }}</p>
+  </div>
+</article>
