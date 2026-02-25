@@ -20,7 +20,7 @@ title: Ruby Singapore
     <div class="wrap-narrow">
       <h2 class="heading-center">Chat with us on Telegram</h2>
       <div class="qr-block">
-        <img src="/assets/images/telegram-qr.png" alt="RubySG Telegram QR code" width="220" height="220" />
+        <img src="./assets/images/telegram-qr.png" alt="RubySG Telegram QR code" width="220" height="220" />
       </div>
       <p class="center"><a class="btn" href="{{ site.data.home.telegram_url }}" target="_blank" rel="noopener noreferrer">Join Telegram</a></p>
     </div>
@@ -48,7 +48,7 @@ title: Ruby Singapore
   <section class="section section-gray">
     <div class="wrap-narrow center">
       <h3 class="heading-center heading-with-line">Visiting Singapore?</h3>
-      <img class="hero-image" src="/assets/images/skyline.png" alt="Singapore skyline illustration" />
+      <img class="hero-image" src="./assets/images/skyline.png" alt="Singapore skyline illustration" />
       <p>We have prepared a guide for visiting Rubyists. Check out <a href="{{ site.data.home.visit_guide_url }}" target="_blank" rel="noopener noreferrer">the guide on GitHub</a> and feel free to reach out to us!</p>
     </div>
   </section>
