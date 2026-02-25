@@ -4,7 +4,7 @@ description: >-
   Hello! We are the Ruby community in Singapore! Join us at our monthly meetup events.
 url: "https://ruby.sg"
 baseurl: "/"
-logo: "./assets/images/logo.png"
+logo: "/assets/images/logo.png"
 github_username: rubysg
 
 # Build settings
